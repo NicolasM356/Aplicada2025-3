@@ -1,0 +1,53 @@
+
+
+mi_lista = ["rojo", "azul", "amarillo", "naranja"]
+
+print(mi_lista)#imprime mi lista
+print(type(mi_lista))#imprime el tipo de clase que es mi lista
+print(mi_lista[2])#imprime el elemento que esta ubicado en la posicion 2 
+
+print("mi_lista size: ", len(mi_lista))#len(mi_lista) lo que hace es calcular el numero de elementos de mi lista
+print(mi_lista[0:2])#imprime mi lista del elemento 0 hasta el 2
+print(mi_lista[:2])
+
+mi_lista.append("blanco")#agrega al final de mi lista el elemento blanco
+print(mi_lista)#imprime la lista
+
+mi_lista.insert(2,"negro")#agrega en la posicion 2 el elemento negro
+print(mi_lista)#imprime la lista
+
+mi_lista.extend(["gris" , "cafe"])#concatena la lista [gris, cafe]
+print(mi_lista)#imprime la lista
+
+print(mi_lista.index("azul"))#imprime la posicion de "azul"
+
+mi_lista.remove("cafe")#remueve el elemento cafe
+print(mi_lista)#imprime la lista
+
+mi_lista.append("morado")#agrega al final de la lista el elemento "morado"
+print(mi_lista)#imprime la lista
+
+print(mi_lista.pop())
+tamaño = len(mi_lista)#dice que el la variable tamaño va a ser igual a el numero de elementos de la lista
+print("tamaño de la lista =", tamaño)#imprime el tamaño de la lista va a ser igual a la variable tamaño
+
+mi_lista.remove("negro")#quita el elemento negro
+print(mi_lista)#imprime la lista
+
+mi_lista.remove("gris")#quita el elemento gris
+mi_lista.append("beige")#agrega al final de la lista el elemento beige
+print(mi_lista)#imprime la lista
+
+print("El tamaño final de mi lista es: ",tamaño)#imprime el tamaño final de la lista
+
+print("-------------------------------------------------")
+print("-------------------------------------------------")
+
+mi_numlista = [5,4,8,6,7,10,9,2,3,1]
+
+print("Ordenando la lista: ")
+mi_numlista.sort()
+print(mi_numlista)
+
+mi_numlista.sort(reverse=True)
+print("ordenandola de mayor a menor seria: ", mi_numlista)
